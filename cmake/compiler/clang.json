@@ -1,0 +1,16 @@
+{
+  "version": 8,
+  "configurePresets": [
+    {
+      "name": "clang",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": true,
+        "CMAKE_C_COMPILER": "clang",
+        "CMAKE_C_FLAGS": "-Wall -Werror -Wpedantic -Wconversion",
+        "CMAKE_CXX_COMPILER": "clang++",
+        "CMAKE_CXX_FLAGS": "-Wall -Werror -Wpedantic -Wconversion"
+      }
+    }
+  ]
+}

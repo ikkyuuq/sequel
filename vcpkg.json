@@ -1,0 +1,10 @@
+{
+  "name": "sequel",
+  "version-string": "2026.6.1",
+  "dependencies": [
+    {
+      "name": "sdl3",
+      "features": ["vulkan"]
+    }
+  ]
+}
