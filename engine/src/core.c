@@ -1,7 +1,7 @@
 #include <core.h>
+#include <da.h>
 #include <define.h>
 #include <renderer.h>
-#include <da.h>
 
 #include "SDL3/SDL_events.h"
 #include "SDL3/SDL_video.h"
@@ -135,6 +135,7 @@ void run_app(Application *app)
       }
     }
 
+    clear_color(app->renderer, WHITE);
     // update
     // render
   }

@@ -6,6 +6,10 @@
 #include <assert.h>
 #include <stdlib.h>
 
+#define RGBA(r, g, b, a) (Color){r, g, b, a}
+#define WHITE RGBA(255, 255, 255, 255)
+#define BLACK RGBA(0, 0, 0, 255)
+
 typedef struct RenderCommand RenderCommand;
 typedef struct RenderCommands RenderCommands;
 typedef struct Renderer Renderer;

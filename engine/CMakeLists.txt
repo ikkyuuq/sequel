@@ -4,6 +4,7 @@ add_library(
   sequel 
   SHARED
   src/core.c
+  src/renderer.c
 )
 
 target_include_directories(sequel PUBLIC 
